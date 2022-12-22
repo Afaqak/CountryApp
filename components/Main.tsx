@@ -8,7 +8,7 @@ interface props {
 
 const Main = ({ countries }: props) => {
   const router = useRouter();
-  return (  
+  return (
     <div
       className=" grid p-4
     grid-cols-1 md-min:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
@@ -31,6 +31,9 @@ const Main = ({ countries }: props) => {
                 router.push(`/${country.name.common}`);
               }}
               className="bg-white
+              dark:bg-gray-800
+              dark:text-gray-100
+              dark:border-gray-700
             shadow-lg
             border-2 border-gray-200
             rounded-lg
