@@ -24,6 +24,9 @@ const Searchbar = ({setSearch,setRegion}:props) => {
         font-nunito
         text-gray-500
         placeholder-gray-500
+        dark:bg-gray-800
+        dark:text-gray-100
+        
         '   
         type="text" placeholder="Search for a country..." />
         <select name=""
@@ -35,6 +38,8 @@ const Searchbar = ({setSearch,setRegion}:props) => {
           font-nunito
           text-gray-500
           placeholder-gray-500
+          dark:bg-gray-800
+          dark:text-gray-100
           '
           onChange={(e)=>setRegion(e.target.value)}
         id="">

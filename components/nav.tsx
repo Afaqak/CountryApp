@@ -36,6 +36,7 @@ const Navbar = () => {
   p-4
   bg-white
   dark:bg-gray-800
+  dark:text-white
   shadow-lg
   '>
     <h2 className="text-2xl font-bold">
