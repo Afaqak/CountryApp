@@ -10,18 +10,23 @@ const Navbar = () => {
     const currentTheme=theme==='system'?systemTheme:theme;
     if(currentTheme==='light'){
       return (
-        <p onClick={
+        <p 
+        className='cursor-pointer text-gray-500 dark:text-gray-300 p-3'
+        onClick={
           ()=>setTheme('dark')
         }>
-          Dark Mode
+          Dark 
         </p>
       )
     }else{
       return (
-        <p onClick={
+        <p
+        className='cursor-pointer text-gray-500
+        dark:text-gray-300 p-3'
+        onClick={
           ()=>setTheme('light')
         }>
-          Light Mode
+          Light
         </p>
       )
     }

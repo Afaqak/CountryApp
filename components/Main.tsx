@@ -17,6 +17,7 @@ const Main = ({ countries }: props) => {
         //this is the loader which is used to show the loading animation
         countries.length === 0 ? (
           <ThreeDots
+            
             height="80"
             width="80"
             radius="9"
